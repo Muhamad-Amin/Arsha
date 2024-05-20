@@ -1,0 +1,6 @@
+@media screen and (max-width:768px) {
+    .scroll-top {
+        bottom: 25px;
+        right: 10px;
+    }
+}
