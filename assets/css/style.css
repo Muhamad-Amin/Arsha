@@ -63,12 +63,26 @@ header nav ul li a:hover {
     width: 100%;
 }
 
-@media screen and (min-width: 1322px) {
-    .home {height: 80vh;}
+.home h2 {
+    --animate-delay: 0.7s;
 }
 
-.home .text-subhome {
-    color: rgba(255, 255, 255, 0.6);
+.home h4 {
+    --animate-delay: 1.1s;
+}
+
+.home button {
+    --animate-delay: 1.5s;
+}
+
+.home img {
+    --animate-delay: 1.1s;
+}
+
+@media screen and (min-width: 1322px) {
+    .home {
+        height: 80vh;
+    }
 }
 
 /* Home End */
@@ -92,6 +106,7 @@ header nav ul li a:hover {
     width: 335px;
     text-align: center;
 }
+
 
 .about ul li {
     list-style: none;
